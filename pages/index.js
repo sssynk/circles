@@ -1,7 +1,11 @@
-import { Button } from "@mantine/core";
+import { Button, Image } from "@mantine/core";
 
 function Index() {
-  return <Button>Test</Button>;
+  return (
+    <div>
+      <Image src="/logos/text.png" alt="Mantine logo" />
+    </div>
+  );
 }
 
 export default Index;
