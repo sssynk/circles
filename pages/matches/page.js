@@ -28,7 +28,7 @@ export default function Matches() {
         getMatches()
     }, [user])
 
-    if (!isLoaded || !isSignedIn) {
+    if (isLoading || !isAuthenticated) {
         return <div></div>
     }
 
